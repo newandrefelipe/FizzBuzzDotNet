@@ -1,8 +1,8 @@
 ﻿namespace FizzBuzzDotNet
 {
-    public class FizzBuzz
+    public static class FizzBuzz
     {
-        public string Exec(int number)
+        public static string Exec(int number)
         {
             if (number % 3 == 0 && number % 5 == 0)
             {
